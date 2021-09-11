@@ -1,0 +1,90 @@
+html, body{
+	padding: 0px;
+	margin: 0px;
+	background: #F1F1F1;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover, a:focus { text-decoration: none;}
+/* Barra Superior */
+nav{
+	background: #148E10;
+	color: white;
+	margin: auto;
+}
+nav .bar{
+	margin: auto;
+}
+nav .universidad_datos{
+	margin: auto;
+}
+/* /Barra Superior */
+.notifications .col-3{
+	font-size: large;
+}
+
+/* Tipo de usuarios */
+
+.contenedor_usuario{
+	padding: 20px;
+}
+.tipo_usuario{
+	text-align: center;
+	box-shadow: 0 0 6px #0000004f;
+	border: 0.5px solid gray;
+	padding: 0 20px;
+	background-color: white;
+}
+.tipo_usuario h3{
+	text-decoration: none;
+}
+.link_cuadro{
+	color: #3D3A3A;
+	text-decoration: none;
+}
+.tipo_usuario:hover{
+	color: #13A809;
+	box-shadow: 0 0 6px black;
+}
+.tipo_usuario h3:hover{
+	text-decoration: none;
+}
+footer{
+	text-align: center;
+	background-color: #3A3939;
+	color: #E9E9E9;
+	padding: 10px 25%;
+	margin-top: 3%;
+}
+
+/* Login usuarios */
+.contenedor_login{
+	background: white;
+	padding:  20px;
+	box-shadow: 0 0 6px #0000004f;
+	border: 0.5px solid gray;
+}
+.input_valor{
+	width: 100%;
+	margin: 10px 0;
+	height: 30px;
+	border-radius: 2px;
+	border: 1px solid gray;
+	box-sizing: border-box;
+}
+.boton{
+	width: 100%;
+	margin: 10px 0;
+	height: 30px;
+	box-sizing: border-box;
+	background-color: #148E10;
+	color: white;
+	font-size: 15px;
+	border-radius: 2px;
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	margin: 5px 0;
+}
+.boton:hover{
+	background-color: #1BB916;
+}
