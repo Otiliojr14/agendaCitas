@@ -98,12 +98,12 @@ if (isset($_SESSION['citaDamr_department'])) {
 												
 						$mail -> CharSet = 'UTF-8';
 						$mail -> isSMTP();
-						$mail -> Host = 'smtp.dreamhost.com';
+						$mail -> Host = 'hosto personalizado';
 						$mail -> SMTPAuth = true;
-						$mail -> Username = 'computo@damrios.com';
-						$mail -> Password = 's7?8YX5U';
+						$mail -> Username = 'correo personalizado';
+						$mail -> Password = 'seguridad personalizada';
 						$mail -> SMTPSecure = 'tls';
-						$mail -> Port = 587;
+						$mail -> Port = 'Puero personalizado';
 						//remitente
 						$mail -> setFrom($RemitenteMail, $RemitenteNombre);
 						//destinatario
